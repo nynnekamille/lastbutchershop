@@ -44,24 +44,32 @@ nav {
 
 /*********************** VARER ***************************/
 
-#splash_jakke .sectionwrapper {
+#varer .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-#splash_jakke .column {
+#varer .column {
     flex-basis: 300px;
     flex-grow: 2;
 }
 
-#splash_jakke {
+#varer {
     width: 70%;
     margin: 0 auto;
-    margin-top: 20px;
-    padding: 10px;
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     background-color: black;
+}
+
+#varer img {
+    width: 80%;
+}
+
+#varer img.logo {
+    width: 28px;
+    height: 28px;
 }
