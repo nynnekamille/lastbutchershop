@@ -1,25 +1,39 @@
-nav a {font-family: 'Open Sans', sans-serif;
-color: white;
+body {
+    background-image: url(img/splash-1366x768.jpg);
+    background-size: 100vw;
+}
+
+header {
+    background-color: #000000;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.logo,
+nav {
+    display: inline-block;
+}
+
+.logo {
+    width: 7%;
 }
 
 header nav a:hover {
     color: deeppink;
 }
 
-header nav a {
-      text-decoration: none;
-    text-align: center;
-    font-size: 1em;
+nav {
+    text-align: right;
+    float: right;
+    width: 90%;
 }
-
-body {
-    background-image: url(lbs.jpg);
-    background-size: 100vw;
-}
-
-header {
-    position: fixed;
-    width: 100vw;
-    padding: 0.3em;
-    background-color: black;
-    opacity: 60%;
