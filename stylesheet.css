@@ -40,3 +40,28 @@ nav {
     float: right;
     width: 90%;
 }
+
+
+/*********************** VARER ***************************/
+
+#splash_jakke .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#splash_jakke .column {
+    flex-basis: 300px;
+    flex-grow: 2;
+}
+
+#splash_jakke {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+body {
+    background-color: black;
+}
