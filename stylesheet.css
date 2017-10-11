@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 #frontpage {
     background-image: url(img/splash-1366x768.jpg);
     background-size: 100%;
@@ -39,4 +44,25 @@ nav {
     text-align: right;
     float: right;
     width: 90%;
+}
+
+#webshop {
+    background-color: black;
+}
+
+#webshop .indhold {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#webshop .billeder {
+    margin: 53px;
+}
+
+#webshop img {
+    height: 40vw;
+    width: 30vw;
+    padding-left: 4px;
+    object-fit: cover;
 }
