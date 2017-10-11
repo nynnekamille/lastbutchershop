@@ -1,0 +1,25 @@
+nav a {font-family: 'Open Sans', sans-serif;
+color: white;
+}
+
+header nav a:hover {
+    color: deeppink;
+}
+
+header nav a {
+      text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+}
+
+body {
+    background-image: url(lbs.jpg);
+    background-size: 100vw;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    padding: 0.3em;
+    background-color: black;
+    opacity: 60%;
