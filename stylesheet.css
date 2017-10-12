@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-h2 {
+h1 {
     color: white;
     font-family: 'Fascinate Inline', cursive;
 }
@@ -13,9 +13,16 @@ p {
     font-family: 'Fascinate Inline', cursive;
 }
 
+#frontpage {
+    background-image: url(img/splash-1366x768.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 body {
     background-color: black;
 }
+
 
 /**************splash**********/
 
@@ -62,153 +69,6 @@ body {
     }
 }
 
-/**************splash slut**********/
-
-/**************menu**********/
-
-header {
-    background-color: rgba(0, 0, 0, 0.72);
-    position: fixed;
-    height: 54px;
-}
-
-.logo img {
-    width: 100%;
-}
-
-nav a {
-    font-family: 'Fascinate Inline', cursive;
-    color: white;
-    text-decoration: none;
-    padding-right: 30px;
-    padding-left: 5px;
-}
-
-.logo,
-nav {
-    display: inline-block;
-}
-
-.logo {
-    width: 6%;
-    padding-left: 4px;
-    padding-top: 4px;
-}
-
-header nav a:hover {
-    color: deeppink;
-}
-
-nav {
-    text-align: right;
-    float: right;
-    width: 60vw;
-    height: 40px;
-}
-
-/**************menu**********/
-
-/**************webshop**********/
-
-#webshop {
-    background-color: black;
-}
-
-#webshop .produkter {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#webshop .produkter {
-    padding: 53px;
-}
-
-#webshop img {
-    height: 19vw;
-    width: 19vw;
-    padding-left: 4vw;
-    padding-bottom: 4vw;
-    object-fit: cover;
-}
-
-/**************webshop slut**********/
-
-/*************about********/
-
-#about .sectionwrapper {
-    display: flex;
-}
-
-#about .hs-responsive-embed-youtube iframe {
-    position: absolute;
-    width: 50%!important;
-    height: 50%!important;
-}
-
-#about .hs-responsive-embed-youtube {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 Aspect Ratio */
-    padding-top: 0px;
-}
-
-#about .info {}
-
-/*************about slut********/
-
-/**************varer**********/
-
-#varer {
-    font-family: open sans;
-    box-sizing: border-box;
-    width: 70%;
-    margin: 0 auto;
-}
-
-body {
-    background-color: black;
-}
-
-#varer .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 100px;
-}
-
-#varer .column {
-    flex-basis: 300px;
-    flex-grow: 2;
-    background-color: white;
-}
-
-
-
-/**************varer slut**********/
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-h1 {
-    color: white;
-    font-family: 'Fascinate Inline', cursive;
-}
-
-p {
-    color: white;
-    font-family: 'Fascinate Inline', cursive;
-}
-
-#frontpage {
-    background-image: url(img/splash-1366x768.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-body {
-    background-color: black;
-}
 
 /**************menu**********/
 
@@ -260,7 +120,9 @@ nav {
     height: 40px;
 }
 
-/**************menu**********/
+
+/**************menu slut**********/
+
 
 /**************webshop**********/
 
@@ -285,7 +147,9 @@ nav {
     object-fit: cover;
 }
 
+
 /**************webshop slut**********/
+
 
 /*************about********/
 
@@ -314,4 +178,30 @@ nav {
     padding-left: 30px;
 }
 
+
 /*************about slut********/
+
+
+/**********varer******/
+
+#varer {
+    font-family: open sans;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#varer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+#varer .column {
+    flex-basis: 300px;
+    flex-grow: 2;
+    background-color: white;
+}
+
+
+/**************varer slut**********/
