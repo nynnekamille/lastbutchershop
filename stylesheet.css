@@ -170,6 +170,7 @@ nav {
     height: 100%!important;
     flex-basis: 1;
     padding-right: 30px;
+    border: none;
 }
 
 #about .hs-responsive-embed-youtube {
