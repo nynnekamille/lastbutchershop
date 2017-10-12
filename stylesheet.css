@@ -6,6 +6,7 @@
 h1 {
     color: white;
     font-family: 'Fascinate Inline', cursive;
+    font-size: 2em;
 }
 
 p {
@@ -105,7 +106,7 @@ nav {
 }
 
 .kurv {
-    width: 4%;
+    width: 30px;
     padding-top: 9px;
 }
 
