@@ -184,3 +184,134 @@ body {
 
 
 /**************varer slut**********/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+p {
+    color: white;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+#frontpage {
+    background-image: url(img/splash-1366x768.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: black;
+}
+
+/**************menu**********/
+
+header {
+    background-color: rgba(0, 0, 0, 0.72);
+    position: fixed;
+    height: 54px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav a {
+    font-family: 'Fascinate Inline', cursive;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 5px;
+    font-size: 1.5em;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.logo,
+nav {
+    display: inline-block;
+}
+
+.logo {
+    width: 6%;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.kurv {
+    width: 4%;
+    padding-top: 9px;
+}
+
+header nav a:hover {
+    color: deeppink;
+}
+
+nav {
+    text-align: right;
+    float: right;
+    width: 60vw;
+    height: 40px;
+}
+
+/**************menu**********/
+
+/**************webshop**********/
+
+#webshop {
+    background-color: black;
+}
+
+#webshop .produkter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#webshop .produkter {
+    padding: 53px;
+}
+
+#webshop img {
+    height: 19vw;
+    width: 19vw;
+    padding-left: 4vw;
+    padding-bottom: 4vw;
+    object-fit: cover;
+}
+
+/**************webshop slut**********/
+
+/*************about********/
+
+#about .sectionwrapper {
+    display: flex;
+}
+
+#about .hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    flex-basis: 1;
+    padding-right: 30px;
+}
+
+#about .hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 20.25%;
+    padding-top: 83px;
+    flex-basis: 600px;
+}
+
+#about .info {
+    flex-grow: 1;
+    padding-top: 77px;
+    padding-left: 30px;
+}
+
+/*************about slut********/
