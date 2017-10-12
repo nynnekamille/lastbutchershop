@@ -1,110 +1,186 @@
-                    * {
-                        margin: 0px;
-                        padding: 0px;
-                    }
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
-                    h2 {
-                        color: white;
-                        font-family: 'Fascinate Inline', cursive;
-                    }
+h2 {
+    color: white;
+    font-family: 'Fascinate Inline', cursive;
+}
 
-                    p {
-                        color: white;
-                        font-family: 'Fascinate Inline', cursive;
-                    }
+p {
+    color: white;
+    font-family: 'Fascinate Inline', cursive;
+}
 
-                    #frontpage {
-                        background-image: url(img/splash-1366x768.jpg);
-                        background-size: 100%;
-                        background-repeat: no-repeat;
-                    }
+body {
+    background-color: black;
+}
 
-                    body {
-                        background-color: black;
-                    }
-                    /**************menu**********/
+/**************splash**********/
 
-                    header {
-                        background-color: rgba(0, 0, 0, 0.72);
-                        position: fixed;
-                        height: 54px;
-                    }
+#frontpage {
+    background-image: url(splash_img/mobile_portrait.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 167vw;
+}
 
-                    .logo img {
-                        width: 100%;
-                    }
+@media screen and (min-width: 667px) and (min-height: 375px) and (orientation: landscape) {
+    #frontpage {
+        background-image: url(splash_img/mobile_landscape.jpg);
+        height: 60vw;
+    }
+}
 
-                    nav a {
-                        font-family: 'Fascinate Inline', cursive;
-                        color: white;
-                        text-decoration: none;
-                        padding-right: 30px;
-                        padding-left: 5px;
-                    }
+@media screen and (min-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+    #frontpage {
+        background-image: url(splash_img/tablet_portrait.jpg);
+        height: 133vw;
+    }
+}
 
-                    .logo,
-                    nav {
-                        display: inline-block;
-                    }
+@media screen and (min-width: 1024px) and (min-height: 768px) and (orientation: landscape) {
+    #frontpage {
+        background-image: url(splash_img/tablet_landscape.jpg);
+        height: 75vw;
+    }
+}
 
-                    .logo {
-                        width: 6%;
-                        padding-left: 4px;
-                        padding-top: 4px;
-                    }
+@media screen and (min-width: 1400px) and (orientation: landscape) {
+    #frontpage {
+        background-image: url(splash_img/desktop.jpg);
+        height: 56vw;
+    }
+}
 
-                    header nav a:hover {
-                        color: deeppink;
-                    }
+@media screen and (min-width: 5120px) and (orientation: landscape) {
+    #frontpage {
+        background-image: url(splash_img/retina_desktop.jpg);
+        height: 56vw;
+    }
+}
 
-                    nav {
-                        text-align: right;
-                        float: right;
-                        width: 60vw;
-                        height: 40px;
-                    }
-                    /**************menu**********/
-                    /**************webshop**********/
+/**************splash slut**********/
 
-                    #webshop {
-                        background-color: black;
-                    }
+/**************menu**********/
 
-                    #webshop .produkter {
-                        display: flex;
-                        flex-wrap: wrap;
-                    }
+header {
+    background-color: rgba(0, 0, 0, 0.72);
+    position: fixed;
+    height: 54px;
+}
 
-                    #webshop .produkter {
-                        padding: 53px;
-                    }
+.logo img {
+    width: 100%;
+}
 
-                    #webshop img {
-                        height: 19vw;
-                        width: 19vw;
-                        padding-left: 4vw;
-                        padding-bottom: 4vw;
-                        object-fit: cover;
-                    }
-                    /**************webshop slut**********/
-                    /*************about********/
+nav a {
+    font-family: 'Fascinate Inline', cursive;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 5px;
+}
 
-                    #about .sectionwrapper {
-                        display: flex;
-                    }
+.logo,
+nav {
+    display: inline-block;
+}
 
-                    #about .hs-responsive-embed-youtube iframe {
-                        position: absolute;
-                        width: 50%!important;
-                        height: 50%!important;
-                    }
+.logo {
+    width: 6%;
+    padding-left: 4px;
+    padding-top: 4px;
+}
 
-                    #about .hs-responsive-embed-youtube {
-                        position: relative;
-                        padding-bottom: 56.25%;
-                        /* 16:9 Aspect Ratio */
-                        padding-top: 0px;
-                    }
+header nav a:hover {
+    color: deeppink;
+}
 
-                    #about .info {}
-                    /*************about slut********/
+nav {
+    text-align: right;
+    float: right;
+    width: 60vw;
+    height: 40px;
+}
+
+/**************menu**********/
+
+/**************webshop**********/
+
+#webshop {
+    background-color: black;
+}
+
+#webshop .produkter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#webshop .produkter {
+    padding: 53px;
+}
+
+#webshop img {
+    height: 19vw;
+    width: 19vw;
+    padding-left: 4vw;
+    padding-bottom: 4vw;
+    object-fit: cover;
+}
+
+/**************webshop slut**********/
+
+/*************about********/
+
+#about .sectionwrapper {
+    display: flex;
+}
+
+#about .hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 50%!important;
+    height: 50%!important;
+}
+
+#about .hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 0px;
+}
+
+#about .info {}
+
+/*************about slut********/
+
+/**************varer**********/
+
+#varer {
+    font-family: open sans;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+#varer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+#varer .column {
+    flex-basis: 300px;
+    flex-grow: 2;
+    background-color: white;
+}
+
+
+
+/**************varer slut**********/
