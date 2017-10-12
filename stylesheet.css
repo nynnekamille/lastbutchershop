@@ -38,9 +38,14 @@
                         font-family: 'Fascinate Inline', cursive;
                         color: white;
                         text-decoration: none;
+<<<<<<< HEAD
                         padding-right: 30px;
                         padding-left: 5px;
                         font-size: 1.5em;
+=======
+                        padding-right: 40px;
+                        padding-left: 40px;
+>>>>>>> origin/master
                     }
 
                     .logo,
@@ -52,6 +57,11 @@
                         width: 6%;
                         padding-left: 4px;
                         padding-top: 4px;
+                    }
+
+                    .kurv {
+                        width: 4%;
+                        padding-top: 9px;
                     }
 
                     header nav a:hover {
