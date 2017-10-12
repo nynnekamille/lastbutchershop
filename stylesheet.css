@@ -145,6 +145,13 @@ nav {
     padding-left: 4vw;
     padding-bottom: 4vw;
     object-fit: cover;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#webshop img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
 }
 
 
