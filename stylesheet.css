@@ -21,7 +21,9 @@ p {
 }
 
 body {
-    background-color: black;
+    background-image: url(img/black_background.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
 }
 
 
@@ -124,12 +126,13 @@ nav {
 
 /**************menu slut**********/
 
-
 /**************webshop**********/
 
+/*
 #webshop {
     background-color: black;
 }
+*/
 
 #webshop .produkter {
     display: flex;
@@ -150,7 +153,6 @@ nav {
 
 
 /**************webshop slut**********/
-
 
 /*************about********/
 
@@ -182,7 +184,6 @@ nav {
 
 /*************about slut********/
 
-
 /**********varer******/
 
 #varer {
@@ -204,5 +205,52 @@ nav {
     background-color: white;
 }
 
+#varer h1 {
+    color: black;
+    font-size: 3em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#varer p {
+    color: black;
+    font-family: open sans;
+    font-size: 0.7em;
+    padding: 10px;
+    padding-left: 0;
+}
+
+#varer a {
+    text-decoration: none;
+    font-size: 0.7em;
+    color: black;
+}
+
+#varer h4 {
+    padding-top: 40px;
+    color: #ff007f;
+}
+
+#varer img {
+    height: 15px;
+    width: 15px;
+}
+
+#varer form {
+    padding-top: 15px;
+    float: right;
+    float: bottom;
+    width: 70px;
+}
+
+#varer video {
+    height: 45vw;
+}
+
+@media screen (min-width: 857px) {
+    #varer video {
+        height: 600px;
+    }
+}
 
 /**************varer slut**********/
