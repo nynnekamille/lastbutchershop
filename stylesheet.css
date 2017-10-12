@@ -172,12 +172,13 @@ nav {
     position: relative;
     padding-bottom: 20.25%;
     padding-top: 83px;
+    margin: 60px;
     flex-basis: 600px;
 }
 
 #about .info {
     flex-grow: 1;
-    padding-top: 77px;
+    padding-top: 139px;
     padding-left: 30px;
 }
 
