@@ -130,13 +130,6 @@ nav {
 
 /**************webshop**********/
 
-
-/*
-#webshop {
-    background-color: black;
-}
-*/
-
 #webshop .produkter {
     display: flex;
     flex-wrap: wrap;
@@ -244,8 +237,6 @@ nav {
 
 #varer form {
     padding-top: 15px;
-    float: right;
-    float: bottom;
     width: 70px;
 }
 
