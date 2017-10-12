@@ -178,6 +178,8 @@ nav {
     padding-top: 83px;
     margin: 60px;
     flex-basis: 600px;
+    width: 600;
+    height: 355;
 }
 
 #about .info {
