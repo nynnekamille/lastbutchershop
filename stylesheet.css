@@ -3,7 +3,7 @@
                         padding: 0px;
                     }
 
-                    h2 {
+                    h1 {
                         color: white;
                         font-family: 'Fascinate Inline', cursive;
                     }
@@ -40,6 +40,7 @@
                         text-decoration: none;
                         padding-right: 30px;
                         padding-left: 5px;
+                        font-size: 1.5em;
                     }
 
                     .logo,
@@ -95,16 +96,23 @@
 
                     #about .hs-responsive-embed-youtube iframe {
                         position: absolute;
-                        width: 50%!important;
-                        height: 50%!important;
+                        width: 100%!important;
+                        height: 100%!important;
+                        flex-basis: 1;
+                        padding-right: 30px;
                     }
 
                     #about .hs-responsive-embed-youtube {
                         position: relative;
-                        padding-bottom: 56.25%;
+                        padding-bottom: 26.25%;
                         /* 16:9 Aspect Ratio */
                         padding-top: 0px;
+                        flex-basis: 600px;
                     }
 
-                    #about .info {}
+                    #about .info {
+                        flex-grow: 1;
+                        padding-top: 49px;
+                        padding-left: 30px;
+                    }
                     /*************about slut********/
