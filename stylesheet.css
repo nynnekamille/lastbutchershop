@@ -79,6 +79,7 @@ header {
     background-color: rgba(0, 0, 0, 0.72);
     position: fixed;
     height: 54px;
+    width: 100%;
 }
 
 .logo img {
@@ -126,7 +127,9 @@ nav {
 
 /**************menu slut**********/
 
+
 /**************webshop**********/
+
 
 /*
 #webshop {
@@ -153,6 +156,7 @@ nav {
 
 
 /**************webshop slut**********/
+
 
 /*************about********/
 
@@ -184,6 +188,7 @@ nav {
 
 
 /*************about slut********/
+
 
 /**********varer******/
 
@@ -253,5 +258,6 @@ nav {
         height: 600px;
     }
 }
+
 
 /**************varer slut**********/
