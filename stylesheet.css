@@ -104,15 +104,14 @@
 
                     #about .hs-responsive-embed-youtube {
                         position: relative;
-                        padding-bottom: 26.25%;
-                        /* 16:9 Aspect Ratio */
-                        padding-top: 0px;
+                        padding-bottom: 20.25%;
+                        padding-top: 83px;
                         flex-basis: 600px;
                     }
 
                     #about .info {
                         flex-grow: 1;
-                        padding-top: 49px;
+                        padding-top: 77px;
                         padding-left: 30px;
                     }
                     /*************about slut********/
