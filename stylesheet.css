@@ -127,7 +127,6 @@ nav {
 
 /**************menu slut**********/
 
-
 /**************webshop**********/
 
 #webshop .produkter {
@@ -160,49 +159,73 @@ nav {
 }
 */
 
-
 /****HOVERTEKST****/
-
 
 /**************webshop slut**********/
 
-
 /*************about********/
+
+#about {
+    box-sizing: border-box;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 
 #about .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 #about .hs-responsive-embed-youtube iframe {
+    /*
     position: absolute;
     width: 100%!important;
     height: 100%!important;
     flex-basis: 1;
-    padding-right: 30px;
+    padding-right: 20px;
     border: none;
+*/
+    height: 30vw;
+    width: 30vw;
 }
 
 #about .hs-responsive-embed-youtube {
+    /*
     position: relative;
     padding-bottom: 20.25%;
     padding-top: 83px;
     margin: 60px;
     flex-basis: 600px;
-    width: 600;
-    height: 355;
+    height: 10px;
+*/
+    flex-basis: 300px;
+    flex-grow: 2;
+    background-color: white;
 }
 
 #about .info {
+    /*
     flex-grow: 1;
     padding-top: 139px;
-    padding-left: 30px;
+    padding-left: 20px;
+*/
+    flex-basis: 300px;
+    flex-grow: 2;
+    background-color: white;
+    height: 500px;
+}
 
+#about .info iframe {
+    width: 30vw;
+    height: 30vw;
+    border: none;
 }
 
 
 /*************about slut********/
-
 
 /**********varer******/
 
