@@ -160,6 +160,7 @@ nav {
 
 #about .sectionwrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #about .hs-responsive-embed-youtube iframe {
@@ -185,6 +186,7 @@ nav {
     flex-grow: 1;
     padding-top: 139px;
     padding-left: 30px;
+
 }
 
 
