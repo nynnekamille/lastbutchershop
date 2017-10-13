@@ -31,16 +31,16 @@ body {
 
 #frontpage {
     background-image: url(splash_img/mobile_portrait.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 167vw;
+    height: 178vw;
 }
 
 @media screen and (min-width: 667px) and (min-height: 375px) and (orientation: landscape) {
     #frontpage {
         background-image: url(splash_img/mobile_landscape.jpg);
-        height: 60vw;
+        height: 56.5vw;
     }
 }
 
@@ -127,7 +127,6 @@ nav {
 
 /**************menu slut**********/
 
-
 /**************webshop**********/
 
 #webshop .produkter {
@@ -156,7 +155,6 @@ nav {
 
 
 /**************webshop slut**********/
-
 
 /*************about********/
 
@@ -191,7 +189,6 @@ nav {
 
 
 /*************about slut********/
-
 
 /**********varer******/
 
