@@ -127,6 +127,7 @@ nav {
 
 /**************menu slut**********/
 
+
 /**************webshop**********/
 
 #webshop .produkter {
@@ -144,6 +145,11 @@ nav {
     padding-left: 4vw;
     padding-bottom: 4vw;
     object-fit: cover;
+}
+
+
+/*
+#webshop img {
     opacity: 1;
     filter: alpha(opacity=100);
 }
@@ -152,9 +158,14 @@ nav {
     opacity: 0.8;
     filter: alpha(opacity=50);
 }
+*/
+
+
+/****HOVERTEKST****/
 
 
 /**************webshop slut**********/
+
 
 /*************about********/
 
@@ -191,6 +202,7 @@ nav {
 
 
 /*************about slut********/
+
 
 /**********varer******/
 
